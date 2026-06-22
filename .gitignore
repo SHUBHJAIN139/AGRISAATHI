@@ -1,14 +1,55 @@
-.env
-*.pyc
+# Python virtual environment (HUNDREDS OF MB - do NOT upload)
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
 __pycache__/
-*.egg-info/
-dist/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
 build/
-data/
+dist/
+*.egg-info/
+*.egg
+
+# Testing
 .pytest_cache/
-.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment secrets (NEVER upload)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (if frontend exists)
 node_modules/
-frontend/dist/
-.vite/
-*.db
-*.sqlite3
+npm-debug.log*
+yarn-debug.log*
+
+# Runtime data
+data/sessions.db
+data/audit.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ngrok
+ngrok.exe
