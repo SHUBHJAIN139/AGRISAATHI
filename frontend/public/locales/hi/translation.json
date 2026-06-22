@@ -1,0 +1,21 @@
+{
+  "app_name": "अन्नदाता साथी",
+  "welcome": "नमस्ते! मैं अन्नदाता साथी हूँ",
+  "welcome_subtitle": "आपकी खेती में AI साथी। फोटो, मौसम, भाव, योजनाएं — सब एक जगह।",
+  "feature_disease": "फसल रोग पहचान",
+  "feature_weather": "मौसम और सिंचाई सलाह",
+  "feature_price": "मंडी भाव",
+  "feature_schemes": "सरकारी योजनाएं",
+  "input_placeholder": "अपना सवाल लिखें...",
+  "thinking": "सोच रहा हूँ...",
+  "take_photo": "फसल का फोटो लें",
+  "photo_hint": "पत्ते का करीबी फोटो लें। अच्छी रोशनी में।",
+  "analyze": "विश्लेषण करें",
+  "cancel": "रद्द करें",
+  "retake": "दोबारा लें",
+  "organic_treatment": "जैविक उपचार (पहले आज़माएं)",
+  "chemical_treatment": "रासायनिक उपचार",
+  "crop": "फसल",
+  "severity": "गंभीरता",
+  "any_questions": "और कोई सवाल?"
+}

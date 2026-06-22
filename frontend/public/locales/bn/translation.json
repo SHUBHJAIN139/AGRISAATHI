@@ -1,0 +1,11 @@
+{
+  "app_name": "অগ্রিসাথী",
+  "welcome": "নমস্কার! আমি অগ্রিসাথী",
+  "welcome_subtitle": "আপনার AI কৃষি সঙ্গী। ফটো, আবহাওয়া, দাম, প্রকল্প — সব এক জায়গায়।",
+  "feature_disease": "ফসলের রোগ নির্ণয়",
+  "feature_weather": "আবহাওয়া ও সেচ পরামর্শ",
+  "feature_price": "মান্ডি দাম",
+  "feature_schemes": "সরকারি প্রকল্প",
+  "input_placeholder": "আপনার প্রশ্ন লিখুন...",
+  "thinking": "ভাবছি..."
+}

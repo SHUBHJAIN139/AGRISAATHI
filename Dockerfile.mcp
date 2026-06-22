@@ -1,0 +1,31 @@
+# =============================================================================
+# AgriSaathi — MCP Server Dockerfile
+# =============================================================================
+# Build arg MCP_SERVER selects which MCP server to run.
+# Usage: docker build --build-arg MCP_SERVER=weather_mcp -f Dockerfile.mcp .
+# =============================================================================
+FROM python:3.11-slim
+
+ARG MCP_SERVER=weather_mcp
+
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy project files
+COPY pyproject.toml ./
+COPY mcp_servers/ ./mcp_servers/
+COPY tools/ ./tools/
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -e .
+
+# Set the MCP server to run via environment variable
+ENV MCP_SERVER_MODULE=mcp_servers.${MCP_SERVER}.server
+
+EXPOSE 8081 8082 8083
+
+CMD python -m ${MCP_SERVER_MODULE}

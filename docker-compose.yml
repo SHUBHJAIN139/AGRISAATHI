@@ -1,0 +1,114 @@
+# =============================================================================
+# AgriSaathi — Docker Compose (Local Development)
+# =============================================================================
+# Usage:
+#   cp .env.example .env          # configure environment
+#   docker compose up --build     # start all services
+#   docker compose down           # stop all services
+# =============================================================================
+
+services:
+  # ─── API Gateway (FastAPI) ────────────────────────────────────────────
+  api-gateway:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "${API_PORT:-8080}:8080"
+    environment:
+      - MOCK_LLM=${MOCK_LLM:-true}
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY:-}
+      - JWT_SECRET=${JWT_SECRET:-change-me-in-production}
+      - SESSION_BACKEND=${SESSION_BACKEND:-sqlite}
+      - SQLITE_DB_PATH=/app/data/sessions.db
+      - MCP_TRANSPORT=${MCP_TRANSPORT:-stdio}
+      - WEATHER_MCP_URL=http://weather-mcp:8081/mcp
+      - MANDI_MCP_URL=http://mandi-mcp:8082/mcp
+      - SCHEMES_MCP_URL=http://schemes-mcp:8083/mcp
+      - RATE_LIMIT_PER_MINUTE=${RATE_LIMIT_PER_MINUTE:-60}
+      - AUDIT_LOG_PATH=/app/data/audit.log
+      - CORS_ORIGINS=${CORS_ORIGINS:-http://localhost:5173}
+    volumes:
+      - app-data:/app/data
+    depends_on:
+      - weather-mcp
+      - mandi-mcp
+      - schemes-mcp
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
+  # ─── Weather MCP Server ───────────────────────────────────────────────
+  weather-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile.mcp
+      args:
+        MCP_SERVER: weather_mcp
+    ports:
+      - "8081:8081"
+    environment:
+      - MCP_TRANSPORT=sse
+      - MCP_PORT=8081
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8081/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
+  # ─── Mandi MCP Server ────────────────────────────────────────────────
+  mandi-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile.mcp
+      args:
+        MCP_SERVER: mandi_mcp
+    ports:
+      - "8082:8082"
+    environment:
+      - MCP_TRANSPORT=sse
+      - MCP_PORT=8082
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8082/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
+  # ─── Schemes MCP Server ──────────────────────────────────────────────
+  schemes-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile.mcp
+      args:
+        MCP_SERVER: schemes_mcp
+    ports:
+      - "8083:8083"
+    environment:
+      - MCP_TRANSPORT=sse
+      - MCP_PORT=8083
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8083/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
+  # ─── Frontend (React PWA) ────────────────────────────────────────────
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:80"
+    depends_on:
+      - api-gateway
+    restart: unless-stopped
+
+volumes:
+  app-data:
+    driver: local

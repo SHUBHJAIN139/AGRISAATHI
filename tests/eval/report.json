@@ -1,0 +1,1012 @@
+{
+  "total": 100,
+  "correct_top1": 100,
+  "correct_top3": 100,
+  "top1_accuracy": 1.0,
+  "top3_accuracy": 1.0,
+  "avg_latency_ms": 0.0,
+  "total_time_s": 0.0,
+  "mock_mode": "true",
+  "details": [
+    {
+      "filename": "Tomato___Late_blight_001.jpg",
+      "crop": "Tomato",
+      "expected": "Late_blight",
+      "predicted": "Late Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Late_blight_002.jpg",
+      "crop": "Tomato",
+      "expected": "Late_blight",
+      "predicted": "Late Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Late_blight_003.jpg",
+      "crop": "Tomato",
+      "expected": "Late_blight",
+      "predicted": "Late Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Late_blight_004.jpg",
+      "crop": "Tomato",
+      "expected": "Late_blight",
+      "predicted": "Late Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Late_blight_005.jpg",
+      "crop": "Tomato",
+      "expected": "Late_blight",
+      "predicted": "Late Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Early_blight_001.jpg",
+      "crop": "Tomato",
+      "expected": "Early_blight",
+      "predicted": "Early Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Early_blight_002.jpg",
+      "crop": "Tomato",
+      "expected": "Early_blight",
+      "predicted": "Early Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Early_blight_003.jpg",
+      "crop": "Tomato",
+      "expected": "Early_blight",
+      "predicted": "Early Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Early_blight_004.jpg",
+      "crop": "Tomato",
+      "expected": "Early_blight",
+      "predicted": "Early Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Early_blight_005.jpg",
+      "crop": "Tomato",
+      "expected": "Early_blight",
+      "predicted": "Early Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Leaf_Mold_001.jpg",
+      "crop": "Tomato",
+      "expected": "Leaf_Mold",
+      "predicted": "Leaf Mold",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Leaf_Mold_002.jpg",
+      "crop": "Tomato",
+      "expected": "Leaf_Mold",
+      "predicted": "Leaf Mold",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Leaf_Mold_003.jpg",
+      "crop": "Tomato",
+      "expected": "Leaf_Mold",
+      "predicted": "Leaf Mold",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Leaf_Mold_004.jpg",
+      "crop": "Tomato",
+      "expected": "Leaf_Mold",
+      "predicted": "Leaf Mold",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Leaf_Mold_005.jpg",
+      "crop": "Tomato",
+      "expected": "Leaf_Mold",
+      "predicted": "Leaf Mold",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Septoria_leaf_spot_001.jpg",
+      "crop": "Tomato",
+      "expected": "Septoria_leaf_spot",
+      "predicted": "Septoria Leaf Spot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Septoria_leaf_spot_002.jpg",
+      "crop": "Tomato",
+      "expected": "Septoria_leaf_spot",
+      "predicted": "Septoria Leaf Spot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Septoria_leaf_spot_003.jpg",
+      "crop": "Tomato",
+      "expected": "Septoria_leaf_spot",
+      "predicted": "Septoria Leaf Spot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Septoria_leaf_spot_004.jpg",
+      "crop": "Tomato",
+      "expected": "Septoria_leaf_spot",
+      "predicted": "Septoria Leaf Spot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Septoria_leaf_spot_005.jpg",
+      "crop": "Tomato",
+      "expected": "Septoria_leaf_spot",
+      "predicted": "Septoria Leaf Spot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Spider_mites_001.jpg",
+      "crop": "Tomato",
+      "expected": "Spider_mites",
+      "predicted": "Spider Mites",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Spider_mites_002.jpg",
+      "crop": "Tomato",
+      "expected": "Spider_mites",
+      "predicted": "Spider Mites",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Spider_mites_003.jpg",
+      "crop": "Tomato",
+      "expected": "Spider_mites",
+      "predicted": "Spider Mites",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Spider_mites_004.jpg",
+      "crop": "Tomato",
+      "expected": "Spider_mites",
+      "predicted": "Spider Mites",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Spider_mites_005.jpg",
+      "crop": "Tomato",
+      "expected": "Spider_mites",
+      "predicted": "Spider Mites",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Target_Spot_001.jpg",
+      "crop": "Tomato",
+      "expected": "Target_Spot",
+      "predicted": "Target Spot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Target_Spot_002.jpg",
+      "crop": "Tomato",
+      "expected": "Target_Spot",
+      "predicted": "Target Spot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Target_Spot_003.jpg",
+      "crop": "Tomato",
+      "expected": "Target_Spot",
+      "predicted": "Target Spot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Target_Spot_004.jpg",
+      "crop": "Tomato",
+      "expected": "Target_Spot",
+      "predicted": "Target Spot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Target_Spot_005.jpg",
+      "crop": "Tomato",
+      "expected": "Target_Spot",
+      "predicted": "Target Spot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Yellow_Leaf_Curl_Virus_001.jpg",
+      "crop": "Tomato",
+      "expected": "Yellow_Leaf_Curl_Virus",
+      "predicted": "Yellow Leaf Curl Virus",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Yellow_Leaf_Curl_Virus_002.jpg",
+      "crop": "Tomato",
+      "expected": "Yellow_Leaf_Curl_Virus",
+      "predicted": "Yellow Leaf Curl Virus",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Yellow_Leaf_Curl_Virus_003.jpg",
+      "crop": "Tomato",
+      "expected": "Yellow_Leaf_Curl_Virus",
+      "predicted": "Yellow Leaf Curl Virus",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Yellow_Leaf_Curl_Virus_004.jpg",
+      "crop": "Tomato",
+      "expected": "Yellow_Leaf_Curl_Virus",
+      "predicted": "Yellow Leaf Curl Virus",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Yellow_Leaf_Curl_Virus_005.jpg",
+      "crop": "Tomato",
+      "expected": "Yellow_Leaf_Curl_Virus",
+      "predicted": "Yellow Leaf Curl Virus",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Mosaic_virus_001.jpg",
+      "crop": "Tomato",
+      "expected": "Mosaic_virus",
+      "predicted": "Mosaic Virus",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Mosaic_virus_002.jpg",
+      "crop": "Tomato",
+      "expected": "Mosaic_virus",
+      "predicted": "Mosaic Virus",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Mosaic_virus_003.jpg",
+      "crop": "Tomato",
+      "expected": "Mosaic_virus",
+      "predicted": "Mosaic Virus",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Bacterial_spot_001.jpg",
+      "crop": "Tomato",
+      "expected": "Bacterial_spot",
+      "predicted": "Bacterial Spot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___Bacterial_spot_002.jpg",
+      "crop": "Tomato",
+      "expected": "Bacterial_spot",
+      "predicted": "Bacterial Spot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___healthy_001.jpg",
+      "crop": "Tomato",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___healthy_002.jpg",
+      "crop": "Tomato",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___healthy_003.jpg",
+      "crop": "Tomato",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___healthy_004.jpg",
+      "crop": "Tomato",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Tomato___healthy_005.jpg",
+      "crop": "Tomato",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Potato___Early_blight_001.jpg",
+      "crop": "Potato",
+      "expected": "Early_blight",
+      "predicted": "Early Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Potato___Early_blight_002.jpg",
+      "crop": "Potato",
+      "expected": "Early_blight",
+      "predicted": "Early Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Potato___Early_blight_003.jpg",
+      "crop": "Potato",
+      "expected": "Early_blight",
+      "predicted": "Early Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Potato___Early_blight_004.jpg",
+      "crop": "Potato",
+      "expected": "Early_blight",
+      "predicted": "Early Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Potato___Early_blight_005.jpg",
+      "crop": "Potato",
+      "expected": "Early_blight",
+      "predicted": "Early Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Potato___Late_blight_001.jpg",
+      "crop": "Potato",
+      "expected": "Late_blight",
+      "predicted": "Late Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Potato___Late_blight_002.jpg",
+      "crop": "Potato",
+      "expected": "Late_blight",
+      "predicted": "Late Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Potato___Late_blight_003.jpg",
+      "crop": "Potato",
+      "expected": "Late_blight",
+      "predicted": "Late Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Potato___Late_blight_004.jpg",
+      "crop": "Potato",
+      "expected": "Late_blight",
+      "predicted": "Late Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Potato___Late_blight_005.jpg",
+      "crop": "Potato",
+      "expected": "Late_blight",
+      "predicted": "Late Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Potato___healthy_001.jpg",
+      "crop": "Potato",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Potato___healthy_002.jpg",
+      "crop": "Potato",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Potato___healthy_003.jpg",
+      "crop": "Potato",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Potato___healthy_004.jpg",
+      "crop": "Potato",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Potato___healthy_005.jpg",
+      "crop": "Potato",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Corn___Common_rust_001.jpg",
+      "crop": "Corn",
+      "expected": "Common_rust",
+      "predicted": "Common Rust",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Corn___Common_rust_002.jpg",
+      "crop": "Corn",
+      "expected": "Common_rust",
+      "predicted": "Common Rust",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Corn___Common_rust_003.jpg",
+      "crop": "Corn",
+      "expected": "Common_rust",
+      "predicted": "Common Rust",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Corn___Common_rust_004.jpg",
+      "crop": "Corn",
+      "expected": "Common_rust",
+      "predicted": "Common Rust",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Corn___Common_rust_005.jpg",
+      "crop": "Corn",
+      "expected": "Common_rust",
+      "predicted": "Common Rust",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Corn___Northern_Leaf_Blight_001.jpg",
+      "crop": "Corn",
+      "expected": "Northern_Leaf_Blight",
+      "predicted": "Northern Leaf Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Corn___Northern_Leaf_Blight_002.jpg",
+      "crop": "Corn",
+      "expected": "Northern_Leaf_Blight",
+      "predicted": "Northern Leaf Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Corn___Northern_Leaf_Blight_003.jpg",
+      "crop": "Corn",
+      "expected": "Northern_Leaf_Blight",
+      "predicted": "Northern Leaf Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Corn___Northern_Leaf_Blight_004.jpg",
+      "crop": "Corn",
+      "expected": "Northern_Leaf_Blight",
+      "predicted": "Northern Leaf Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Corn___Northern_Leaf_Blight_005.jpg",
+      "crop": "Corn",
+      "expected": "Northern_Leaf_Blight",
+      "predicted": "Northern Leaf Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Corn___Cercospora_leaf_spot_001.jpg",
+      "crop": "Corn",
+      "expected": "Cercospora_leaf_spot",
+      "predicted": "Cercospora Leaf Spot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Corn___Cercospora_leaf_spot_002.jpg",
+      "crop": "Corn",
+      "expected": "Cercospora_leaf_spot",
+      "predicted": "Cercospora Leaf Spot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Corn___Cercospora_leaf_spot_003.jpg",
+      "crop": "Corn",
+      "expected": "Cercospora_leaf_spot",
+      "predicted": "Cercospora Leaf Spot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Corn___healthy_001.jpg",
+      "crop": "Corn",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Corn___healthy_002.jpg",
+      "crop": "Corn",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Apple___Apple_scab_001.jpg",
+      "crop": "Apple",
+      "expected": "Apple_scab",
+      "predicted": "Apple Scab",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Apple___Apple_scab_002.jpg",
+      "crop": "Apple",
+      "expected": "Apple_scab",
+      "predicted": "Apple Scab",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Apple___Apple_scab_003.jpg",
+      "crop": "Apple",
+      "expected": "Apple_scab",
+      "predicted": "Apple Scab",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Apple___Apple_scab_004.jpg",
+      "crop": "Apple",
+      "expected": "Apple_scab",
+      "predicted": "Apple Scab",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Apple___Apple_scab_005.jpg",
+      "crop": "Apple",
+      "expected": "Apple_scab",
+      "predicted": "Apple Scab",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Apple___Black_rot_001.jpg",
+      "crop": "Apple",
+      "expected": "Black_rot",
+      "predicted": "Black Rot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Apple___Black_rot_002.jpg",
+      "crop": "Apple",
+      "expected": "Black_rot",
+      "predicted": "Black Rot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Apple___Black_rot_003.jpg",
+      "crop": "Apple",
+      "expected": "Black_rot",
+      "predicted": "Black Rot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Apple___Cedar_apple_rust_001.jpg",
+      "crop": "Apple",
+      "expected": "Cedar_apple_rust",
+      "predicted": "Cedar Apple Rust",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Apple___Cedar_apple_rust_002.jpg",
+      "crop": "Apple",
+      "expected": "Cedar_apple_rust",
+      "predicted": "Cedar Apple Rust",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Apple___healthy_001.jpg",
+      "crop": "Apple",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Apple___healthy_002.jpg",
+      "crop": "Apple",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Apple___healthy_003.jpg",
+      "crop": "Apple",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Grape___Black_rot_001.jpg",
+      "crop": "Grape",
+      "expected": "Black_rot",
+      "predicted": "Black Rot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Grape___Black_rot_002.jpg",
+      "crop": "Grape",
+      "expected": "Black_rot",
+      "predicted": "Black Rot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Grape___Black_rot_003.jpg",
+      "crop": "Grape",
+      "expected": "Black_rot",
+      "predicted": "Black Rot",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Grape___Esca_001.jpg",
+      "crop": "Grape",
+      "expected": "Esca",
+      "predicted": "Esca",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Grape___Esca_002.jpg",
+      "crop": "Grape",
+      "expected": "Esca",
+      "predicted": "Esca",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Grape___Leaf_blight_001.jpg",
+      "crop": "Grape",
+      "expected": "Leaf_blight",
+      "predicted": "Leaf Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Grape___Leaf_blight_002.jpg",
+      "crop": "Grape",
+      "expected": "Leaf_blight",
+      "predicted": "Leaf Blight",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Grape___healthy_001.jpg",
+      "crop": "Grape",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Grape___healthy_002.jpg",
+      "crop": "Grape",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Grape___healthy_003.jpg",
+      "crop": "Grape",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Grape___healthy_004.jpg",
+      "crop": "Grape",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    },
+    {
+      "filename": "Grape___healthy_005.jpg",
+      "crop": "Grape",
+      "expected": "healthy",
+      "predicted": "Healthy",
+      "confidence": 0.92,
+      "top1_match": true,
+      "top3_match": true,
+      "latency_ms": 0.0
+    }
+  ]
+}

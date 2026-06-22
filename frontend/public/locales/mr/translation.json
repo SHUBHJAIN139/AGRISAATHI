@@ -1,0 +1,11 @@
+{
+  "app_name": "अग्रीसाथी",
+  "welcome": "नमस्कार! मी अग्रीसाथी",
+  "welcome_subtitle": "तुमचा AI शेती साथी. फोटो, हवामान, भाव, योजना — सगळं एकाच ठिकाणी.",
+  "feature_disease": "पिकाचे रोग ओळख",
+  "feature_weather": "हवामान व सिंचन सल्ला",
+  "feature_price": "बाजारभाव",
+  "feature_schemes": "सरकारी योजना",
+  "input_placeholder": "तुमचा प्रश्न टाइप करा...",
+  "thinking": "विचार करत आहे..."
+}

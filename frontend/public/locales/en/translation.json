@@ -1,0 +1,21 @@
+{
+  "app_name": "AgriSaathi",
+  "welcome": "Namaste! I am AgriSaathi",
+  "welcome_subtitle": "Your AI farming companion. Photos, weather, prices, schemes — all in one place.",
+  "feature_disease": "Crop Disease Diagnosis",
+  "feature_weather": "Weather & Irrigation Advice",
+  "feature_price": "Mandi Prices",
+  "feature_schemes": "Government Schemes",
+  "input_placeholder": "Type your question...",
+  "thinking": "Thinking...",
+  "take_photo": "Take a Crop Photo",
+  "photo_hint": "Take a close-up of the affected leaf. Good lighting helps.",
+  "analyze": "Analyze",
+  "cancel": "Cancel",
+  "retake": "Retake",
+  "organic_treatment": "Organic Treatment (try first)",
+  "chemical_treatment": "Chemical Treatment",
+  "crop": "Crop",
+  "severity": "Severity",
+  "any_questions": "Any other questions?"
+}

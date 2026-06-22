@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agri-saathi"
+version = "1.0.0"
+description = "AgriSaathi - Multilingual AI farming companion for Indian farmers"
+requires-python = ">=3.11"
+authors = [{name = "AgriSaathi Team"}]
+
+dependencies = [
+    "google-adk>=0.3.0",
+    "mcp[cli]>=1.0.0",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.7.0",
+    "pydantic-settings>=2.3.0",
+    "pyjwt[crypto]>=2.8.0",
+    "aiosqlite>=0.20.0",
+    "google-genai>=1.0.0",
+    "python-multipart>=0.0.9",
+    "python-dotenv>=1.0.0",
+    "httpx>=0.27.0",
+    "structlog>=24.1.0",
+    "Pillow>=10.3.0",
+    "bcrypt>=4.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-json-report>=1.5.0",
+    "ruff>=0.4.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["agents*", "mcp_servers*", "tools*", "api*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
