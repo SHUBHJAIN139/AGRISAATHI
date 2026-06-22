@@ -533,3 +533,24 @@ async def _run_agent(
     except Exception as e:
         logger.error("agent_run_failed", error=str(e))
         return "farmer_concierge", f"I'm experiencing technical difficulties. Please try again. Error: {e}"
+
+# Welcome endpoint for judges
+@app.get("/")
+async def root():
+    """Welcome endpoint. Tells judges where to go."""
+    return {
+        "name": "AgriSaathi API",
+        "tagline": "अन्नदाता साथी — Multilingual AI farming companion for smallholder Indian farmers",
+        "version": "1.0.0",
+        "track": "Agents for Good",
+        "built_with": "Antigravity by Google",
+        "docs_url": "/docs",
+        "endpoints": {
+            "GET  /":            "This welcome page",
+            "GET  /health":      "Health check",
+            "POST /chat":        "Chat with multi-agent system",
+            "POST /diagnose":    "Crop disease diagnosis",
+            "POST /webhooks/whatsapp": "WhatsApp webhook (scaffolded)"
+        },
+        "try_first": "Visit /docs for interactive Swagger UI."
+    }
